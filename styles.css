@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+}
+br {
+    margin: 200px;
+}
+#app {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#expressionInput {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#minXInput{
+    padding: 10px;
+    font-size: 16px;
+}
+
+#maxXInput{
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+canvas {
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    display: none;
+}

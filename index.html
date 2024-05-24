@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>그래프</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Chart.js 라이브러리 불러오기 -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>Graph</h1>
+        <input type="text" id="expressionInput" placeholder="수식을 입력하세요">
+        <label for="minXInput">최소 X 값:</label>
+        <input type="number" id="minXInput" placeholder="값을 입력하세요">
+        <label for="maxXInput">최대 X 값:</label>
+        <input type="number" id="maxXInput" placeholder="값을 입력하세요">
+        <button onclick="drawGraph()">그래프 그리기</button>
+        <canvas id="graphCanvas"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
